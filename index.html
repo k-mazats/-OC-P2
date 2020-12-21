@@ -10,32 +10,52 @@
 		<link rel="stylesheet" type="text/css" href="" />
 	</head>
 	<body>
-		<nav class="m-nav">
-			<ul class="m-menu-home">
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-			</ul>
+		<a href="" class="m-menu-home"></a>
+		<a href="">S'inscrire</a>
+		<nav>
 			<ul class="m-menu">
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
+				<li><a href="">Hébergements</a></li>
+				<li><a href="">Activités</a></li>
 			</ul>
 		</nav>
 		<main>
 			<section>
 				<!-- search form -->
-				<h3 class="section-title"></h3>
-				<p class="section-p"></p>
+				<h1 class="section-title">
+					Trouvez votre hébergement pour des vacances de rêve
+				</h1>
+				<p class="section-p">En plein centre ville ou en pleine nature</p>
 				<form action="" class="search-form">
 					<fieldset class="search-fieldset">
 						<!-- check how to style a search input -->
 					</fieldset>
 					<fieldset class="search-filters-fieldset">
-						<legend class="search-filters-legend"></legend>
-						<input type="checkbox" name="" id="" class="search-filter" />
+						<legend class="search-filters-legend">Filtres</legend>
 						<!-- check how to styles checkboxes -->
-						<input type="checkbox" name="" id="" class="search-filter" />
-						<input type="checkbox" name="" id="" class="search-filter" />
-						<input type="checkbox" name="" id="" class="search-filter" />
+						<input
+							type="checkbox"
+							name="budgetFilter"
+							id=""
+							class="search-filter"
+						/>
+						<input
+							type="checkbox"
+							name="familyFilter"
+							id=""
+							class="search-filter"
+						/>
+						<input
+							type="checkbox"
+							name="romanticFilter"
+							id=""
+							class="search-filter"
+						/>
+						<input
+							type="checkbox"
+							name="petsFilter"
+							id=""
+							class="search-filter"
+						/>
 					</fieldset>
 					<output class="search-form-output">
 						<!-- FontAwesome ? check project instructions -->
@@ -44,62 +64,125 @@
 			</section>
 			<section>
 				<!-- popular section -->
-				<h3 class="section-title"></h3>
+				<h1 class="section-title">
+					<span>Les plus populaires</span><span></span>
+				</h1>
 				<div class="popular-wrap">
 					<article class="popular-card">
 						<!-- to repeat for each items in popular section -->
 						<img src="" alt="" class="card-img-popular" />
-						<h4 class="card-title-popular"></h4>
-						<p class="card-p-popular"></p>
+						<h2 class="card-title-popular">Hôtel Le soleil du matin</h2>
+						<p class="card-p-popular">Nuit à partir de 128€</p>
 						<!-- check best way to display rating with semantic html -->
+					</article>
+					<article class="popular-card">
+						<img src="" alt="" class="card-img-popular" />
+						<h2 class="card-title-popular">
+							Au coeur de l'eau Chambres d'hôtes
+						</h2>
+						<p class="card-p-popular">Nuit à partir de 71€</p>
+					</article>
+					<article class="popular-card">
+						<img src="" alt="" class="card-img-popular" />
+						<h2 class="card-title-popular">Hôtel Tout bleu et Blanc</h2>
+						<p class="card-p-popular">Nuit à partir de 68€</p>
 					</article>
 				</div>
 			</section>
 			<section>
 				<!-- rentals section -->
-				<h3 class="section-title"></h3>
+				<h1 class="section-title">Hébergements à Marseille</h1>
 				<div class="rentals-wrap">
 					<article class="rentals-card">
 						<!-- to repeat for each items in rentals section -->
 						<img src="" alt="" class="card-img-rentals" />
-						<h4 class="card-title-rentals"></h4>
-						<p class="card-p-rentals"></p>
+						<h2 class="card-title-rentals">Auberge la Cannebière</h2>
+						<p class="card-p-rentals">Nuit à partir de 25€</p>
 						<!-- check best way to display rating with semantic html -->
 					</article>
+					<article class="rentals-card">
+						<img src="" alt="" class="card-img-rentals" />
+						<h2 class="card-title-rentals">Hôtel du port</h2>
+						<p class="card-p-rentals">Nuit à partir de 52€</p>
+					</article>
+					<article class="rentals-card">
+						<img src="" alt="" class="card-img-rentals" />
+						<h2 class="card-title-rentals">Hôtel Les mouettes</h2>
+						<p class="card-p-rentals">Nuit à partir de 76€</p>
+					</article>
+					<article class="rentals-card">
+						<img src="" alt="" class="card-img-rentals" />
+						<h2 class="card-title-rentals">Hôtel de la mer</h2>
+						<p class="card-p-rentals">Nuit à partir de 46€</p>
+					</article>
+					<article class="rentals-card">
+						<img src="" alt="" class="card-img-rentals" />
+						<h2 class="card-title-rentals">Auberge Le Panier</h2>
+						<p class="card-p-rentals">Nuit à partir de 23€</p>
+					</article>
+					<article class="rentals-card">
+						<img src="" alt="" class="card-img-rentals" />
+						<h2 class="card-title-rentals">Hôtel chez Amina</h2>
+						<p class="card-p-rentals">Nuit à partir de 96€</p>
+					</article>
+					<div>Afficher plus</div>
 				</div>
 			</section>
 			<section>
 				<!-- activities section -->
-				<h3 class="section-title"></h3>
+				<h1 class="section-title">Activités à Marseille</h1>
 				<div class="activities-wrap">
 					<article class="activities-card">
-						<!-- to repeat for each items in activities section -->
 						<img src="" alt="" class="card-img-activities" />
-						<h4 class="card-title-activities"></h4>
+						<h2 class="card-title-activities">Vieux Port</h2>
+					</article>
+					<article class="activities-card">
+						<img src="" alt="" class="card-img-activities" />
+						<h2 class="card-title-activities">Fort de Pomègues</h2>
+					</article>
+					<article class="activities-card">
+						<img src="" alt="" class="card-img-activities" />
+						<h2 class="card-title-activities">Iles du Frioul</h2>
+					</article>
+					<article class="activities-card">
+						<img src="" alt="" class="card-img-activities" />
+						<h2 class="card-title-activities">Parc National des Calanques</h2>
+					</article>
+					<article class="activities-card">
+						<img src="" alt="" class="card-img-activities" />
+						<h2 class="card-title-activities">Notre-Dame-de-la-Garde</h2>
+					</article>
+					<article class="activities-card">
+						<img src="" alt="" class="card-img-activities" />
+						<h2 class="card-title-activities">Parc Longchamp</h2>
 					</article>
 				</div>
 			</section>
 		</main>
 		<footer>
 			<section>
-                <!-- footer about section -->
-				<h3 class="footer-section-title"></h3>
+				<!-- footer about section -->
+				<h1 class="footer-section-title">A propos</h1>
 				<ul class="footer-ul">
-					<a href="" class="footer-a"><li><!-- to repeat for each items in footer section --></li></a>
+					<li><a href="" class="footer-a">Fonctionnement du site</a></li>
+					<li><a href="" class="footer-a">Conditions générales de vente</a></li>
+					<li><a href="" class="footer-a">Données et confidentialité</a></li>
 				</ul>
-            </section>
-            <section>
-                <!-- footer rentals section -->
-				<h3 class="footer-section-title"></h3>
+			</section>
+			<section>
+				<!-- footer rentals section -->
+				<h1 class="footer-section-title">Nos hébergements</h1>
 				<ul class="footer-ul">
-					<a href="" class="footer-a"><li><!-- to repeat for each items in footer section --></li></a>
+					<li><a href="" class="footer-a">Charte qualité</a></li>
+					<li><a href="" class="footer-a">Soumettre votre hôtel</a></li>
 				</ul>
-            </section>
-            <section>
-                <!-- footer help section -->
-				<h3 class="footer-section-title"></h3>
+			</section>
+			<section>
+				<!-- footer help section -->
+				<h1 class="footer-section-title">Assistance</h1>
 				<ul class="footer-ul">
-					<a href="" class="footer-a"><li><!-- to repeat for each items in footer section --></li></a>
+					<li><a href="" class="footer-a">Centre d'aide</a></li>
+					<li><a href="" class="footer-a">Nous contacter</a></li>
 				</ul>
 			</section>
 		</footer>
