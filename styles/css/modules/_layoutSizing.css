@@ -58,6 +58,10 @@ output span {
 	object-fit: cover;
 	object-position: center;
 }
+.popular-card .card-body {
+	width: 61%;
+	max-height: 9rem;
+}
 
 .rentals-card {
 	height: 12.25rem;
