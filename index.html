@@ -38,42 +38,29 @@
 					Trouvez votre hébergement pour des vacances de rêve
 				</h1>
 				<p class="section-p">En plein centre ville ou en pleine nature</p>
-				<form action="" class="search-form">
+				<form class="search-form">
 					<!-- check how to style a search input -->
-					<label for="search" class="search-box"
-						><i class="fas fa-map-marker-alt sr-hidden"
-							><span class="sr-only" hidden>Ville</span></i
-						><input type="search" name="" id="" /><button>
-							<i class="fas fa-search"></i></button
-					></label>
+					<div class="search-box">
+						<label for="searchBar">
+							<i class="fas fa-map-marker-alt sr-hidden"></i>
+							<span class="sr-only" hidden>Ville</span>
+						</label>
+						<input type="search" name="searchBar" id="searchBar" /><button>
+							<i class="fas fa-search"></i>
+						</button>
+					</div>
 
 					<fieldset class="search-filters-fieldset">
 						<legend class="search-filters-legend">Filtres</legend>
 						<!-- check how to styles checkboxes -->
-						<input
-							type="checkbox"
-							name="budgetFilter"
-							id=""
-							class="search-filter"
-						/>
-						<input
-							type="checkbox"
-							name="familyFilter"
-							id=""
-							class="search-filter"
-						/>
+						<input type="checkbox" name="budgetFilter" class="search-filter" />
+						<input type="checkbox" name="familyFilter" class="search-filter" />
 						<input
 							type="checkbox"
 							name="romanticFilter"
-							id=""
 							class="search-filter"
 						/>
-						<input
-							type="checkbox"
-							name="petsFilter"
-							id=""
-							class="search-filter"
-						/>
+						<input type="checkbox" name="petsFilter" class="search-filter" />
 					</fieldset>
 					<output class="search-form-output">
 						<!-- FontAwesome ? check project instructions -->
@@ -88,7 +75,7 @@
 				<div class="popular-wrap">
 					<article class="popular-card">
 						<img
-							src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+							src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
 							alt=""
 							class="card-img-popular"
 						/>

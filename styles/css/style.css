@@ -117,7 +117,7 @@ nav li {
   align-items: center;
 }
 
-.search-box .sr-hidden,
+.search-box label,
 .search-box button {
   display: flex;
   justify-content: center;
@@ -163,7 +163,7 @@ form {
   height: 3.25rem;
 }
 
-.search-box .sr-hidden, .search-box button {
+.search-box label, .search-box button {
   width: calc(100% / 7);
   height: 100%;
 }
