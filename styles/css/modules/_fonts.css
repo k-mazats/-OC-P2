@@ -18,3 +18,10 @@ h2{
 .card-body p{
  font-size: 0.9rem;
 }
+.show-more{
+	font-size: 1.1rem;
+	font-weight: 800;
+}
+.card-lower-body{
+	font-size: 0.7rem;
+}

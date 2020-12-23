@@ -20,8 +20,20 @@ fieldset {
 	margin-bottom: 0.5rem;
 }
 .popular-card .card-body{
-	padding: 0 2ch;
+	padding: 1rem 2ch;
+}
+.rentals-card .card-body{
+	padding: 0.5rem 1ch;
+}
+.rentals-card .card-body p{
+	margin: 0.25rem 0;
 }
 .activities-card .card-body{
-	padding: 0 2ch;
+	padding: 0.5rem 1ch;
 }
+.show-more{
+	margin:2rem 0 0 0;
+}
+/* .card-p-rentals{
+	margin: 0.25rem 0;
+} */

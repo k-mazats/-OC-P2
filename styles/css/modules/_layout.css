@@ -70,12 +70,17 @@ output span {
 .popular-card{
 	display: flex;
 }
-.popular-card .card-body{
+.rentals-card .card-body,.popular-card .card-body{
 	display: flex;
 	flex-direction: column;
+	justify-content:space-between;
 }
 
-.rentals-card, .activities-card{
+.activities-card{
 	display: flex;
 	flex-direction: column;
 }
+.activities-card .card-body{
+	display: flex;
+	align-items: center;
+} 

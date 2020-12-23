@@ -1,6 +1,14 @@
-#popularSection{
+#popularSection, footer{
 background-color: #F2F2F2;
 }
 .popular-card{
     background-color: white;
 }
+.grey-star{
+    color:#F2F2F2
+}
+.blue-star{
+    color: #0065FC
+}
+
+/* bleu clair : #DEEBFF */

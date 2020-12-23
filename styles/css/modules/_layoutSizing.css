@@ -65,9 +65,12 @@ output span{
 }
 .rentals-card img {
   width: 100%;
-  max-height: 7.35rem;
+  max-height: 7.25rem;
   object-fit: cover;
   object-position: center;
+}
+.rentals-card .card-body{
+ height: 4rem;
 }
 
 .activities-card{
@@ -79,4 +82,7 @@ output span{
   max-height: 8.25rem;
   object-fit: cover;
   object-position: center;
+}
+.activities-card .card-body{
+ height: 3.5rem;
 }
