@@ -44,6 +44,39 @@ form {
     width: 22px;
     height: 22px;
 }
-output p{
-    width: calc(97.5% - 28px);
+output span{
+    width: calc(100% - 22px - 1.5ch);
+}
+
+.popular-card{
+    height: 9rem;
+    width: 100%;
+}
+.popular-card img {
+  width: 39%;
+  max-height: 9rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.rentals-card{
+    height: 12.25rem;
+    width: 100%;
+}
+.rentals-card img {
+  width: 100%;
+  max-height: 7.35rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.activities-card{
+    height: 11.75rem;
+    width: 100%;
+}
+.activities-card img {
+  width: 100%;
+  max-height: 8.25rem;
+  object-fit: cover;
+  object-position: center;
 }

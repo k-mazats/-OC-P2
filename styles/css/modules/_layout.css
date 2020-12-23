@@ -4,12 +4,14 @@ header {
 	justify-content: space-between;
 	align-items: flex-start;
 }
+
 nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
+
 nav li {
 	display: flex;
 
@@ -26,25 +28,54 @@ nav li {
 	align-items: center;
 }
 
+main section {
+	display: flex;
+	flex-direction: column;
+}
+main section .section-title {
+	display: flex;
+	justify-content: space-between;
+}
+
 .search-box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 .search-box label,
 .search-box button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-output{
-	display:flex;
+output {
+	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
 }
-.output-icon{
+.output-icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+output span {
+	display: block;
+}
+
+
+.card-link{
+	display:block;
+}
+
+.popular-card{
+	display: flex;
+}
+.popular-card .card-body{
+	display: flex;
+	flex-direction: column;
+}
+
+.rentals-card, .activities-card{
+	display: flex;
+	flex-direction: column;
 }

@@ -32,7 +32,7 @@
 			</nav>
 		</header>
 		<main>
-			<section>
+			<section id="searchSection">
 				<!-- search form -->
 				<h1 class="section-title">
 					Trouvez votre hébergement pour des vacances de rêve
@@ -40,18 +40,23 @@
 				<p class="section-p">En plein centre ville ou en pleine nature</p>
 				<form class="search-form">
 					<!-- check how to style a search input -->
-					<div class="search-box">
+					<span class="search-box">
 						<label for="searchBar">
 							<i class="fas fa-map-marker-alt sr-hidden"></i>
 							<span class="sr-only" hidden>Ville</span>
 						</label>
-						<input type="search" name="searchBar" id="searchBar" value="Marseille, France"/><button>
+						<input
+							type="search"
+							name="searchBar"
+							id="searchBar"
+							value="Marseille, France"
+						/><button>
 							<i class="fas fa-search"></i>
 						</button>
-					</div>
+					</span>
 
-					<fieldset class="search-filters-fieldset">
-						<legend class="search-filters-legend">Filtres</legend>
+					<div class="search-filters">
+						<h2>Filtres</h2>
 						<!-- check how to styles checkboxes -->
 						<input type="checkbox" name="budgetFilter" class="search-filter" />
 						<input type="checkbox" name="familyFilter" class="search-filter" />
@@ -61,67 +66,86 @@
 							class="search-filter"
 						/>
 						<input type="checkbox" name="petsFilter" class="search-filter" />
-					</fieldset>
+					</div>
 					<output class="search-form-output">
-						<div class="output-icon"><i class="fas fa-info"></i></div>
-						<p>Plus de 500 logements sont disponibles dans cette ville</p>
+						<i class="fas fa-info output-icon"></i>
+						<span>Plus de 500 logements sont disponibles dans cette ville</span>
 					</output>
 				</form>
 			</section>
-			<section>
+			<section id="popularSection">
 				<!-- popular section -->
 				<h1 class="section-title">
-					<span>Les plus populaires</span><span></span>
+					<span>Les plus populaires</span
+					><span><i class="fas fa-chart-line"></i></span>
 				</h1>
-				<div class="popular-wrap">
-					<article class="popular-card">
-						<img
-							src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-							alt=""
-							class="card-img-popular"
-						/>
-						<h2 class="card-title-popular">Hôtel Le soleil du matin</h2>
-						<p class="card-p-popular">Nuit à partir de 128€</p>
-						<!-- check best way to display rating with semantic html -->
-					</article>
-					<article class="popular-card">
-						<img
-							src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-							alt=""
-							class="card-img-popular"
-						/>
-						<h2 class="card-title-popular">
-							Au coeur de l'eau Chambres d'hôtes
-						</h2>
-						<p class="card-p-popular">Nuit à partir de 71€</p>
-					</article>
-					<article class="popular-card">
-						<img
-							src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-							alt=""
-							class="card-img-popular"
-						/>
-						<h2 class="card-title-popular">Hôtel Tout bleu et Blanc</h2>
-						<p class="card-p-popular">Nuit à partir de 68€</p>
-					</article>
-				</div>
+				
+					<a class="card-link" href="">
+						<article class="popular-card">
+							<img
+								src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+								alt=""
+								class="card-img-popular"
+							/>
+							<div class="card-body">
+								<h2 class="card-title-popular">Hôtel Le soleil du matin</h2>
+								<p class="card-p-popular">Nuit à partir de 128€</p>
+								
+							</div>
+							<!-- check best way to display rating with semantic html -->
+						</article>
+					</a>
+					<a class="card-link" href="">
+						<article class="popular-card">
+							<img
+								src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+								alt=""
+								class="card-img-popular"
+							/>
+							<div class="card-body">
+								<h2 class="card-title-popular">
+									Au coeur de l'eau Chambres d'hôtes
+								</h2>
+								<p class="card-p-popular">Nuit à partir de 71€</p>
+							</div>
+						</article>
+					</a>
+					<a class="card-link" href="">
+						<article class="popular-card">
+							<img
+								src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+								alt=""
+								class="card-img-popular"
+							/>
+							<div class="card-body">
+								<h2 class="card-title-popular">Hôtel Tout bleu et Blanc</h2>
+								<p class="card-p-popular">Nuit à partir de 68€</p>
+							</div>
+						</article>
+					</a>
+				
 			</section>
-			<section>
+			<section id="rentalsSection">
 				<!-- rentals section -->
 				<h1 class="section-title">Hébergements à Marseille</h1>
-				<div class="rentals-wrap">
-					<article class="rentals-card">
+				
+					<a class="card-link" href="">
+						<article class="rentals-card">
 						<!-- to repeat for each items in rentals section -->
 						<img
 							src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
 							alt=""
 							class="card-img-rentals"
 						/>
-						<h2 class="card-title-rentals">Auberge la Cannebière</h2>
-						<p class="card-p-rentals">Nuit à partir de 25€</p>
+						<div class="card-body">
+							<h2 class="card-title-rentals">Auberge la Cannebière</h2>
+							<p class="card-p-rentals">Nuit à partir de 25€</p>
+						</div>
 						<!-- check best way to display rating with semantic html -->
 					</article>
-					<article class="rentals-card">
+					</a>
+					<a class="card-link" href="">
+						<article class="rentals-card">
 						<img
 							src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
 							alt=""
@@ -130,6 +154,8 @@
 						<h2 class="card-title-rentals">Hôtel du port</h2>
 						<p class="card-p-rentals">Nuit à partir de 52€</p>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="rentals-card">
 						<img
 							src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
@@ -139,6 +165,8 @@
 						<h2 class="card-title-rentals">Hôtel Les mouettes</h2>
 						<p class="card-p-rentals">Nuit à partir de 76€</p>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="rentals-card">
 						<img
 							src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
@@ -148,6 +176,8 @@
 						<h2 class="card-title-rentals">Hôtel de la mer</h2>
 						<p class="card-p-rentals">Nuit à partir de 46€</p>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="rentals-card">
 						<img
 							src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
@@ -157,6 +187,8 @@
 						<h2 class="card-title-rentals">Auberge Le Panier</h2>
 						<p class="card-p-rentals">Nuit à partir de 23€</p>
 					</article>
+					</a>
+					<a class="card-link" href=""></a>
 					<article class="rentals-card">
 						<img
 							src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
@@ -166,62 +198,86 @@
 						<h2 class="card-title-rentals">Hôtel chez Amina</h2>
 						<p class="card-p-rentals">Nuit à partir de 96€</p>
 					</article>
+					</a>
 					<div>Afficher plus</div>
-				</div>
+				
 			</section>
-			<section>
+			<section id="activitiesSection">
 				<!-- activities section -->
 				<h1 class="section-title">Activités à Marseille</h1>
-				<div class="activities-wrap">
+				<a class="card-link" href="">
 					<article class="activities-card">
 						<img
 							src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
 							alt=""
 							class="card-img-activities"
 						/>
-						<h2 class="card-title-activities">Vieux Port</h2>
+						<div class="card-body">
+							<h2 class="card-title-activities">Vieux Port</h2>
+						</div>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="activities-card">
 						<img
 							src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
 							alt=""
 							class="card-img-activities"
 						/>
-						<h2 class="card-title-activities">Fort de Pomègues</h2>
+						<div class="card-body">
+							<h2 class="card-title-activities">Fort de Pomègues</h2>
+						</div>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="activities-card">
 						<img
 							src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
 							alt=""
 							class="card-img-activities"
 						/>
-						<h2 class="card-title-activities">Iles du Frioul</h2>
+						<div class="card-body">
+							<h2 class="card-title-activities">Iles du Frioul</h2>
+						</div>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="activities-card">
 						<img
 							src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
 							alt=""
 							class="card-img-activities"
 						/>
-						<h2 class="card-title-activities">Parc National des Calanques</h2>
+						<div class="card-body">
+							<h2 class="card-title-activities">Parc National des Calanques</h2>
+						</div>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="activities-card">
 						<img
 							src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
 							alt=""
 							class="card-img-activities"
 						/>
-						<h2 class="card-title-activities">Notre-Dame-de-la-Garde</h2>
+						<div class="card-body">
+							<h2 class="card-title-activities">Notre-Dame-de-la-Garde</h2>
+						</div>
 					</article>
+					</a>
+					<a class="card-link" href="">
 					<article class="activities-card">
 						<img
 							src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
 							alt=""
 							class="card-img-activities"
 						/>
-						<h2 class="card-title-activities">Parc Longchamp</h2>
+						<div class="card-body">
+							<h2 class="card-title-activities">Parc Longchamp</h2>
+						</div>
 					</article>
-				</div>
+					</a>
+				
 			</section>
 		</main>
 		<footer>

@@ -2,7 +2,7 @@ section {
 	padding: 1.5rem 1.25rem;
 }
 h1{
-	margin-bottom: 1rem;
+	margin: 1rem 0;
 }
 .search-box {
 	margin: 2rem 0;
@@ -11,4 +11,17 @@ h1{
 fieldset {
 	padding: 0;
 	margin: 0;
+}
+
+.card-link:first-of-type{
+	margin: 0.5rem 0;
+}
+.card-link{
+	margin-bottom: 0.5rem;
+}
+.popular-card .card-body{
+	padding: 0 2ch;
+}
+.activities-card .card-body{
+	padding: 0 2ch;
 }

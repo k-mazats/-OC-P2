@@ -21,3 +21,7 @@
 /* fonts */
 
 @import url('modules/_fonts.css');
+
+/* colors */
+
+@import url('modules/_colors.css');
