@@ -17,7 +17,17 @@ h1 {
 h2{
 	font-size: 1.1rem;
 }
+.search-box *{
+	font-weight: 800;
+}
+input[type="search"] {
+	font-size: 1.1rem;
+}
 
+.output-icon {
+	font-size: 0.75rem;
+	color: #0065FC;
+}
 .card-body h2{
  font-size: 1rem;
 }
@@ -30,4 +40,7 @@ h2{
 }
 .card-lower-body{
 	font-size: 0.7rem;
+}
+.footer-ul li{
+	font-weight: 500;
 }

@@ -10,20 +10,21 @@ section {
 h1{
 	margin: 0.5rem 0 0.7rem 0;
 }
+.section-title{
+	margin: 1.5rem 0 1.75rem 0;
+}
 .search-box {
 	margin: 2.25rem 0 2rem 0;
 }
 
-fieldset {
-	padding: 0;
-	margin: 0;
+input[type="search"] {
+	margin: 0 -0.9rem 0 0 ;
+	padding-left: 1.5ch;
 }
 
-.card-link:first-of-type{
-	margin: 0.5rem 0;
-}
+
 .card-link{
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.65rem;
 }
 .popular-card .card-body{
 	padding: 1rem 2ch;
@@ -40,6 +41,13 @@ fieldset {
 .show-more{
 	margin:2rem 0 0 0;
 }
-/* .card-p-rentals{
-	margin: 0.25rem 0;
-} */
+footer{
+	margin-top: 1rem;
+	padding: 1.25rem 1ch;
+}
+.footer-ul{
+	margin: 1.5rem 0 0 0 !important;
+}
+.footer-ul li{
+	margin-top: 0.55rem;
+}

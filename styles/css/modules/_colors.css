@@ -5,7 +5,17 @@ background-color: #F2F2F2;
 .menu a:hover{
 	color: #0065FC;
 }
-
+.search-box label{
+    background-color:#F2F2F2;
+}
+.search-box button{
+    background-color:#0065FC;
+    color: white;
+}
+.search-box button i{
+    
+    color: white;
+}
 .popular-card{
     background-color: white;
 }
