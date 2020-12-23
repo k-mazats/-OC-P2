@@ -11,22 +11,27 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
-
-nav li {
-	display: flex;
-
-	justify-content: space-around;
-	align-items: flex-start;
-}
-.menu {
-	display: flex;
-}
 .home,
 .register {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+/* nav li {
+	display: flex;
+
+	justify-content: space-around;
+	align-items: flex-start;
+} */
+.menu {
+	display: flex;
+}
+.menu a{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+  }
+
 
 main section {
 	display: flex;

@@ -1,3 +1,13 @@
+/* .menu a:visited{
+	border-bottom: 2px solid #0065FC;
+} */
+.menu a:hover{
+	border-bottom: 2px solid #0065FC;
+}
+/* .menu a:active{
+	border-bottom: 2px solid #0065FC;
+} */
+
 input[type="search"] {
 	border: none;
 	border-top: 1px solid #f2f2f2;

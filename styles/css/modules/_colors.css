@@ -1,6 +1,11 @@
 #popularSection, footer{
 background-color: #F2F2F2;
 }
+
+.menu a:hover{
+	color: #0065FC;
+}
+
 .popular-card{
     background-color: white;
 }

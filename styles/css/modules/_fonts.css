@@ -3,7 +3,13 @@
 	text-decoration: none;
 	color: black;
 }
-
+.register{
+	color: #0065FC;
+	font-weight: 800;
+}
+.menu a{
+	font-weight: 600;
+}
 h1 {
 	font-size: 1.35rem;
 	font-weight: 800;
