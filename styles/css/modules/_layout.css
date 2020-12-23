@@ -1,0 +1,50 @@
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+nav li {
+	display: flex;
+
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.menu {
+	display: flex;
+}
+.home,
+.register {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-box label,
+.search-box button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+output{
+	display:flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.output-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

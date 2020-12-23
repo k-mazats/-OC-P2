@@ -1,0 +1,12 @@
+input[type="search"] {
+    border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid#F2F2F2;
+}
+fieldset, button {
+	border: none;
+}
+.output-icon {
+	border: 1px solid black;
+	border-radius: 50%;
+}
