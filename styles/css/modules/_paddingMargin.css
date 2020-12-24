@@ -1,16 +1,16 @@
-.home{
+.home {
 	padding-left: 2ch;
 }
-.register{
+.register {
 	padding-right: 2ch;
 }
 section {
 	padding: 1.5rem 1.25rem;
 }
-h1{
+h1 {
 	margin: 0.5rem 0 0.7rem 0;
 }
-.section-title{
+.section-title {
 	margin: 1.5rem 0 1.75rem 0;
 }
 .search-box {
@@ -18,36 +18,59 @@ h1{
 }
 
 input[type="search"] {
-	margin: 0 -0.9rem 0 0 ;
+	margin: 0 -0.9rem 0 0;
 	padding-left: 1.5ch;
 }
 
-
-.card-link{
+.card-link {
 	margin-bottom: 0.65rem;
 }
-.popular-card .card-body{
+.popular-card .card-body {
 	padding: 1rem 2ch;
 }
-.rentals-card .card-body{
+.rentals-card .card-body {
 	padding: 0.5rem 1ch;
 }
-.rentals-card .card-body p{
+.rentals-card .card-body p {
 	margin: 0.25rem 0;
 }
-.activities-card .card-body{
+.activities-card .card-body {
 	padding: 0.5rem 1ch;
 }
-.show-more{
-	margin:2rem 0 0 0;
+.show-more {
+	margin: 2rem 0 0 0;
 }
-footer{
+footer {
 	margin-top: 1rem;
 	padding: 1.25rem 1ch;
 }
-.footer-ul{
+.footer-ul {
 	margin: 1.5rem 0 0 0 !important;
 }
-.footer-ul li{
+.footer-ul li {
 	margin-top: 0.55rem;
+}
+
+@media (min-width: 900px) {
+	header {
+		padding: 0 2rem;
+	}
+	.home {
+		padding-left: 0;
+	}
+	.register {
+		padding-right: 0;
+	}
+	section {
+		padding: 0.8rem 3.4rem;
+	}
+	h1 {
+		margin: 0 0 0.5rem 0;
+	}
+	.search-box {
+		margin: 1.25rem 0 1.5rem 0;
+	}
+	output{
+		margin: 2.25rem 0 2.5rem 0;
+	}
 }
