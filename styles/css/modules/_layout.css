@@ -124,6 +124,8 @@ output span {
 	}
 	#popularSection {
 		order: 3;
+		align-items: center;
+		justify-content: flex-start;
 	}
 	#rentalsSection {
 		order: 2;
@@ -136,8 +138,13 @@ output span {
 
 		justify-content: space-around;
 	}
+	.popular-card .card-upper-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
 	.masonry-wrap {
-		flex-flow: column wrap;
+		align-content: space-around;
 		justify-content: space-between;
 	}
 }

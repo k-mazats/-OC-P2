@@ -26,4 +26,9 @@ background-color: #F2F2F2;
     color: #0065FC
 }
 
+@media (min-width: 900px) {
+    #rentalsSection, #popularSection, footer{
+        background-color: #F2F2F2;
+    }
+}
 /* bleu clair : #DEEBFF */

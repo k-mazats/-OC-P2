@@ -99,7 +99,9 @@ output span {
 .activities-card .card-body {
 	height: 3.5rem;
 }
-
+footer {
+	width: 100%;
+}
 @media (min-width: 900px) {
 	header {
 		max-height: 115px;
@@ -119,14 +121,6 @@ output span {
 		width: 10%;
 		height: 100%;
 	}
-
-	#popularSection {
-		width: calc(100% / 3);
-	}
-	#rentalsSection {
-		width: calc(100% / 3 * 2);
-	}
-
 	.search-box {
 		width: 31.25%;
 		height: 3.3rem;
@@ -135,14 +129,59 @@ output span {
 		height: 3.3rem;
 	}
 
-	#rentalsSection .card-link {
-		width: 26%;
+	#rentalsSection {
+		width: calc(100% / 3 * 2 - 6.5rem);
 	}
+	#rentalsSection .card-link {
+		width: 29%;
+	}
+	.rentals-card {
+		height: 16rem;
+		width: 100%;
+	}
+	.rentals-card img {
+		width: 100%;
+		max-height: 9rem;
+		object-fit: cover;
+		object-position: center;
+	}
+	.rentals-card .card-body {
+		height: 7rem;
+	}
+
+	#popularSection {
+		width: calc(100% / 3 - 5rem);
+	}
+	#popularSection .section-title{
+		width: calc(100% - 3.5rem);
+	}
+	#popularSection .card-link{
+		height: 12rem;
+		width: 90%;
+	}
+	.popular-card {
+		height: 12rem;
+		width: 100%;
+	}
+	.popular-card img {
+		width: 39%;
+		max-height: 12rem;
+		object-fit: cover;
+		object-position: center;
+	}
+	.popular-card .card-body {
+		width: 61%;
+		max-height: 12rem;
+	}
+	.popular-card .card-upper-body {
+		height: 50%;
+	}
+
 	.masonry-wrap {
 		max-height: 30rem;
 	}
 	.masonry-wrap .card-link {
-		max-width: 22%;
+		width: 22%;
 	}
 	.masonry-wrap .card-link:nth-of-type(1) {
 		height: 100%;
@@ -169,22 +208,25 @@ output span {
 	.activities-card img {
 		max-height: 100%;
 	}
+	.activities-card .card-body {
+	height: 3.5rem;
+}
 	.card-link:nth-of-type(1) .activities-card img {
-		height: 24rem;
+		height: 23.5rem;
 	}
 	.card-link:nth-of-type(2) .activities-card img {
-		height: 13rem;
+		height: 12.5rem;
 	}
 	.card-link:nth-of-type(3) .activities-card img {
-		height: 7rem;
+		height: 6.5rem;
 	}
 	.card-link:nth-of-type(4) .activities-card img {
-		height: 24rem;
+		height: 23.5rem;
 	}
 	.card-link:nth-of-type(5) .activities-card img {
-		height: 10rem;
+		height: 9.5rem;
 	}
 	.card-link:nth-of-type(6) .activities-card img {
-		height: 10rem;
+		height: 9.5rem;
 	}
 }

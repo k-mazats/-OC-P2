@@ -28,32 +28,39 @@ button {
 }
 
 .popular-card {
-	border: 0.25rem solid white;
-	border-radius: 1rem;
+	border: 5px solid white;
+	border-radius: 25px;
 }
 .popular-card img {
-	border-top-left-radius: 0.9rem;
-	border-bottom-left-radius: 0.9rem;
+	border-top-left-radius: 23px;
+	border-bottom-left-radius: 23px;
 }
 .rentals-card {
-	border: 0.25rem solid white;
-	border-radius: 1rem;
+	border: 5px solid white;
+	border-radius: 25px;
 	-webkit-box-shadow: 0px 0px 25px 25px rgba(242, 242, 242, 0.6);
 	-moz-box-shadow: 0px 0px 25px 25px rgba(242, 242, 242, 0.6);
 	box-shadow: 0px 0px 25px 25px rgba(242, 242, 242, 0.6);
 }
 .rentals-card img {
-	border-top-left-radius: 0.9rem;
-	border-top-right-radius: 0.9rem;
+	border-top-left-radius: 23px;
+	border-top-right-radius: 23px;
 }
 
 .activities-card {
-	border-radius: 1rem;
+	border-radius: 25px;
 	-webkit-box-shadow: 0px 0px 25px 25px rgba(242, 242, 242, 0.58);
 	-moz-box-shadow: 0px 0px 25px 25px rgba(242, 242, 242, 0.58);
 	box-shadow: 0px 0px 25px 25px rgba(242, 242, 242, 0.58);
 }
 .activities-card img {
-	border-top-left-radius: 0.9rem;
-	border-top-right-radius: 0.9rem;
+	border-top-left-radius: 23px;
+	border-top-right-radius: 23px;
+}
+
+
+@media (min-width: 900px) {
+	#popularSection, #rentalsSection{
+		border-radius: 25px;
+	}
 }

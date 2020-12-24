@@ -61,16 +61,48 @@ footer {
 	.register {
 		padding-right: 0;
 	}
-	section {
-		padding: 0.8rem 3.4rem;
+	main section {
+		margin: 0.4rem 3.5rem 0.4rem 4rem;
 	}
+
 	h1 {
 		margin: 0 0 0.5rem 0;
 	}
 	.search-box {
 		margin: 1.25rem 0 1.5rem 0;
 	}
-	output{
+	output {
 		margin: 2.25rem 0 2.5rem 0;
 	}
+	.section-title {
+		margin: 2.5rem;
+	}
+	#rentalsSection .card-link {
+		margin: 0 0 3rem 0;
+	}
+	.rentals-card .card-body {
+		padding: 1.25rem 2ch;
+	}
+
+	.show-more {
+		margin: 0.5rem 0 2.75rem 2.75rem;
+	}
+	#popularSection {
+		margin: 0.4rem 0 0.4rem 0;
+	}
+	#popularSection .section-title {
+		margin: 2.5rem 0 ;
+	}
+	#popularSection .card-link:not(:last-child) {
+		margin: 0 0 2.5rem 0;
+	}
+	#activitiesSection{
+		padding: 1.5rem 0;
+	}
+	#activitiesSection .section-title{
+		margin: 2.5rem 0;
+	}
+	.activities-card .card-body {
+	padding-left: 2ch;
+}
 }
