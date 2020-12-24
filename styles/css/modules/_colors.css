@@ -25,6 +25,9 @@ background-color: #F2F2F2;
 .blue-star{
     color: #0065FC
 }
+.card-body{
+    background-color:white;
+}
 
 @media (min-width: 900px) {
     #rentalsSection, #popularSection, footer{

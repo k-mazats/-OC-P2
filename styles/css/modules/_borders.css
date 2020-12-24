@@ -35,6 +35,10 @@ button {
 	border-top-left-radius: 23px;
 	border-bottom-left-radius: 23px;
 }
+.popular-card .card-body {
+	border-top-right-radius: 23px;
+	border-bottom-right-radius: 23px;
+}
 .rentals-card {
 	border: 5px solid white;
 	border-radius: 25px;
@@ -45,6 +49,10 @@ button {
 .rentals-card img {
 	border-top-left-radius: 23px;
 	border-top-right-radius: 23px;
+}
+.rentals-card .card-body,  .activities-card .card-body{
+	border-bottom-left-radius: 23px;
+	border-bottom-right-radius: 23px;
 }
 
 .activities-card {
