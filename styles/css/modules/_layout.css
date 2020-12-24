@@ -21,16 +21,21 @@ nav {
 .menu {
 	display: flex;
 }
-.menu a{
+.menu a {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-  }
+}
 
+main {
+	display: flex;
+	flex-direction: column;
+}
 
 main section {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 main section .section-title {
 	display: flex;
@@ -62,48 +67,77 @@ output span {
 	display: block;
 }
 
-
-.card-link{
-	display:block;
+.card-link {
+	display: block;
 }
 
-.popular-card{
+.popular-card {
 	display: flex;
 }
-.rentals-card .card-body,.popular-card .card-body{
-	display: flex;
-	flex-direction: column;
-	justify-content:space-between;
-}
-
-.activities-card{
+.rentals-card .card-body,
+.popular-card .card-body {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
-.activities-card .card-body{
+.masonry-wrap{
+	display: flex;
+	flex-flow: column wrap;
+}
+.activities-card {
+	display: flex;
+	flex-direction: column;
+}
+.activities-card .card-body {
 	display: flex;
 	align-items: center;
 }
 
 @media (min-width: 900px) {
-header{
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-}
-.home{
-	order: 1;
-	align-self: flex-end;
-}
-nav{
-	order: 2;
-	justify-content: flex-end;
-	align-items: center;
-}
-.menu a{
-	align-items: center;
-  }
-.register{
-	order: 3;
-}
+	header {
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.home {
+		order: 1;
+		align-self: flex-end;
+	}
+	nav {
+		order: 2;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.menu a {
+		align-items: center;
+	}
+	.register {
+		order: 3;
+	}
+	main {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#searchSection {
+		order: 1;
+	}
+	#popularSection {
+		order: 3;
+	}
+	#rentalsSection {
+		order: 2;
+	}
+	#activitiesSection {
+		order: 4;
+	}
+	#rentalsSection {
+		flex-direction: row;
+
+		justify-content: space-around;
+	}
+	.masonry-wrap {
+		flex-flow: column wrap;
+		justify-content: space-between;
+	}
 }

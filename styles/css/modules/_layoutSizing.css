@@ -24,6 +24,13 @@ nav ul {
 .register {
 	height: 72.5%;
 }
+main,
+section {
+	width: 100%;
+}
+.section-title {
+	width: 100%;
+}
 form {
 	width: 100%;
 }
@@ -76,7 +83,9 @@ output span {
 .rentals-card .card-body {
 	height: 4rem;
 }
-
+.show-more {
+	width: 100%;
+}
 .activities-card {
 	height: 11.75rem;
 	width: 100%;
@@ -92,30 +101,90 @@ output span {
 }
 
 @media (min-width: 900px) {
-header{
-	max-height: 115px;
-}
-.home{
-	width: 10%;
-	height:100%;
-}
-nav{
-	width: 80%;
-	height:100%;
-}
-.menu{
-	width: 27.5%;
-}
-.register{
-	width: 10%;
-	height:100%;
-}
+	header {
+		max-height: 115px;
+	}
+	.home {
+		width: 10%;
+		height: 100%;
+	}
+	nav {
+		width: 80%;
+		height: 100%;
+	}
+	.menu {
+		width: 27.5%;
+	}
+	.register {
+		width: 10%;
+		height: 100%;
+	}
 
-.search-box{
-	width: 31.25%;
-	height: 3.3rem;
-}
-.search-filters{
-	height: 3.3rem;
-}
+	#popularSection {
+		width: calc(100% / 3);
+	}
+	#rentalsSection {
+		width: calc(100% / 3 * 2);
+	}
+
+	.search-box {
+		width: 31.25%;
+		height: 3.3rem;
+	}
+	.search-filters {
+		height: 3.3rem;
+	}
+
+	#rentalsSection .card-link {
+		width: 26%;
+	}
+	.masonry-wrap {
+		max-height: 30rem;
+	}
+	.masonry-wrap .card-link {
+		max-width: 22%;
+	}
+	.masonry-wrap .card-link:nth-of-type(1) {
+		height: 100%;
+	}
+	.masonry-wrap .card-link:nth-of-type(2) {
+		height: 55%;
+	}
+	.masonry-wrap .card-link:nth-of-type(3) {
+		height: 35%;
+	}
+	.masonry-wrap .card-link:nth-of-type(4) {
+		height: 100%;
+	}
+	.masonry-wrap .card-link:nth-of-type(5) {
+		height: 45%;
+	}
+	.masonry-wrap .card-link:nth-of-type(6) {
+		height: 45%;
+	}
+	.activities-card {
+		height: 100%;
+		width: 100%;
+	}
+	.activities-card img {
+		max-height: 100%;
+	}
+	.card-link:nth-of-type(1) .activities-card img {
+		height: 24rem;
+	}
+	.card-link:nth-of-type(2) .activities-card img {
+		height: 13rem;
+	}
+	.card-link:nth-of-type(3) .activities-card img {
+		height: 7rem;
+	}
+	.card-link:nth-of-type(4) .activities-card img {
+		height: 24rem;
+	}
+	.card-link:nth-of-type(5) .activities-card img {
+		height: 10rem;
+	}
+	.card-link:nth-of-type(6) .activities-card img {
+		height: 10rem;
+	}
 }
