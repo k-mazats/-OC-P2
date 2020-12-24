@@ -53,6 +53,9 @@ main section .section-title {
 	justify-content: center;
 	align-items: center;
 }
+.l-only{
+	display: none;
+}
 output {
 	display: flex;
 	justify-content: space-between;
@@ -96,8 +99,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
-
-@media (min-width: 900px) {
+@media (min-width: 768px) {
 	header {
 		flex-wrap: nowrap;
 		justify-content: space-around;
@@ -119,12 +121,29 @@ footer {
 	.register {
 		order: 3;
 	}
+	#rentalsSection {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.masonry-wrap {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+@media (min-width: 1250px) {
+	
 	main {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
 	#searchSection {
 		order: 1;
+	}
+	.s-only{
+		display: none;
+	}
+	.l-only{
+		display: block;
 	}
 	#popularSection {
 		order: 3;
@@ -148,6 +167,7 @@ footer {
 		justify-content: flex-start;
 	}
 	.masonry-wrap {
+		flex-direction: column;
 		align-content: space-around;
 		justify-content: space-between;
 	}

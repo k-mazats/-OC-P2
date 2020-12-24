@@ -54,7 +54,7 @@ footer section{
 	margin-top: 0.55rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1250px) {
 	header {
 		padding: 0 2rem;
 	}
@@ -92,7 +92,7 @@ footer section{
 		margin: 0 0 rem 0;
 	}
 	.rentals-card .card-body {
-		padding: 1.25rem 2ch;
+		padding: 0.5rem 2ch 1.25rem 2ch;
 	}
 
 	.show-more {

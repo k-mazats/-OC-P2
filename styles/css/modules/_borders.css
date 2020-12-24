@@ -50,7 +50,8 @@ button {
 	border-top-left-radius: 23px;
 	border-top-right-radius: 23px;
 }
-.rentals-card .card-body,  .activities-card .card-body{
+.rentals-card .card-body,
+.activities-card .card-body {
 	border-bottom-left-radius: 23px;
 	border-bottom-right-radius: 23px;
 }
@@ -65,10 +66,20 @@ button {
 	border-top-left-radius: 23px;
 	border-top-right-radius: 23px;
 }
-
-
-@media (min-width: 900px) {
-	#popularSection, #rentalsSection{
+@media (min-width: 768px) {
+	.menu a:hover {
+		border-top: 2px solid #0065fc;
+		border-bottom: none;
+	}
+	
+}
+@media (min-width: 1250px) {
+	.search-box button {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	#popularSection,
+	#rentalsSection {
 		border-radius: 25px;
 	}
 }
