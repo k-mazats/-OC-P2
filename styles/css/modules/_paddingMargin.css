@@ -42,7 +42,10 @@ input[type="search"] {
 }
 footer {
 	margin-top: 1rem;
-	padding: 1.25rem 1ch;
+	padding: 2.5rem 2ch 0 2.5rem;
+}
+footer section{
+	margin-bottom: 2.5rem;
 }
 .footer-ul {
 	margin: 1.5rem 0 0 0 !important;
@@ -62,8 +65,8 @@ footer {
 		padding-right: 0;
 	}
 	main section {
-	padding: 1.5rem 1.25rem 0 1.25rem;
-}
+		padding: 1.5rem 1.25rem 0 1.25rem;
+	}
 	#searchSection {
 		margin: 0.4rem 2rem 0 2rem;
 		padding: 0.5rem 2.75ch 0 2.75ch;
@@ -107,13 +110,16 @@ footer {
 	#popularSection .card-link {
 		margin: 0 0 2.25rem 0;
 	}
-	#activitiesSection{
+	#activitiesSection {
 		padding: 1rem 2.75rem;
 	}
-	#activitiesSection .section-title{
+	#activitiesSection .section-title {
 		margin: 2.5rem 0;
 	}
 	.activities-card .card-body {
-	padding-left: 2ch;
-}
+		padding-left: 2ch;
+	}
+	footer {
+		padding: 2.75rem 5ch;
+	}
 }

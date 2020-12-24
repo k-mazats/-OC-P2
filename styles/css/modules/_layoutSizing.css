@@ -24,7 +24,7 @@ nav ul {
 .register {
 	height: 72.5%;
 }
-main,
+main
 section {
 	width: 100%;
 }
@@ -228,5 +228,9 @@ footer {
 	}
 	.card-link:nth-of-type(6) .activities-card img {
 		height: 9.5rem;
+	}
+
+	footer section{
+		width:25%;
 	}
 }

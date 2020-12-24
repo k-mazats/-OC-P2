@@ -80,7 +80,7 @@ output span {
 	flex-direction: column;
 	justify-content: space-between;
 }
-.masonry-wrap{
+.masonry-wrap {
 	display: flex;
 	flex-flow: column wrap;
 }
@@ -91,6 +91,10 @@ output span {
 .activities-card .card-body {
 	display: flex;
 	align-items: center;
+}
+footer {
+	display: flex;
+	flex-direction: column;
 }
 
 @media (min-width: 900px) {
@@ -146,5 +150,8 @@ output span {
 	.masonry-wrap {
 		align-content: space-around;
 		justify-content: space-between;
+	}
+	footer {
+		flex-direction: row;
 	}
 }
