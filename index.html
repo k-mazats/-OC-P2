@@ -58,14 +58,33 @@
 					<div class="search-filters">
 						<h2>Filtres</h2>
 						<!-- check how to styles checkboxes -->
-						<input type="checkbox" name="budgetFilter" class="search-filter" />
-						<input type="checkbox" name="familyFilter" class="search-filter" />
-						<input
-							type="checkbox"
-							name="romanticFilter"
-							class="search-filter"
-						/>
-						<input type="checkbox" name="petsFilter" class="search-filter" />
+						<label for="" class="filter-switch">
+							<input
+								type="checkbox"
+								id="budgetFilter"
+								class="filter-checkbox"
+							/>
+							<span class="filter-slider"></span>
+							<span class="filter-title">Economique</span>
+						</label>
+						<label for="" class="filter-switch"
+							><input
+								type="checkbox"
+								id="familyFilter"
+								class="filter-checkbox" /><span class="filter-slider"></span
+						><span class="filter-title">Familial</span></label>
+						<label for="" class="filter-switch"
+							><input
+								type="checkbox"
+								id="romanticFilter"
+								class="filter-checkbox" /><span class="filter-slider"></span
+						><span class="filter-title">Romantique</span></label>
+						<label for="" class="filter-switch"
+							><input
+								type="checkbox"
+								id="petsFilter"
+								class="filter-checkbox" /><span class="filter-slider"></span
+						><span class="filter-title">Animaux autorisés</span></label>
 					</div>
 					<output class="search-form-output">
 						<i class="fas fa-info output-icon"></i>
@@ -332,7 +351,9 @@
 								class="card-img-activities"
 							/>
 							<div class="card-body">
-								<h2 class="card-title-activities">Parc National des Calanques</h2>
+								<h2 class="card-title-activities">
+									Parc National des Calanques
+								</h2>
 							</div>
 						</article>
 					</a>

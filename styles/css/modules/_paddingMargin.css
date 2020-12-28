@@ -21,7 +21,9 @@ input[type="search"] {
 	margin: 0 -0.9rem 0 0;
 	padding-left: 1.5ch;
 }
-
+output {
+		margin: 2rem 0 0.5rem 0;
+	}
 .card-link {
 	margin-bottom: 0.65rem;
 }

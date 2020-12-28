@@ -1,0 +1,96 @@
+.search-filters {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* The switch - the box around the slider */
+.filter-switch {
+	position: relative;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+/* Hide default HTML checkbox */
+.filter-checkbox {
+	position: absolute;
+
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+.filter-title {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: calc(100% - 3rem);
+	height: 100%;
+	z-index: 9998;
+
+	margin-left: 4rem;
+    margin-right: 1rem;
+    
+    font-weight: 800;
+}
+/* The slider */
+.filter-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	border: 2px solid #d9d9d9;
+}
+
+.filter-title:before {
+	position: absolute;
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3rem;
+	width: 3rem;
+	left: -4rem;
+	
+    background-color: #DEEBFF;
+    
+    color: #0065fc;
+    font-family: FontAwesome;
+	
+}
+#budgetFilter + .filter-slider + .filter-title:before {
+	content: "\f53a";
+}
+#familyFilter + .filter-slider + .filter-title:before {
+	content: "\f1ae";
+}
+#romanticFilter + .filter-slider + .filter-title:before {
+	content: "\f004";
+}
+#petsFilter + .filter-slider + .filter-title:before {
+	content: "\f6d3";
+}
+
+.filter-checkbox:checked + .filter-slider {
+	background-color: #DEEBFF;
+}
+
+.filter-checkbox:checked + .filter-slider + .filter-title:before{
+    background-color: #0065fc;
+    
+    color: #DEEBFF;
+}
+
+/* Rounded sliders */
+.filter-slider {
+	border-radius: 34px;
+}
+
+.filter-title:before {
+	border-radius: 50%;
+}

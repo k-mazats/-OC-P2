@@ -25,3 +25,7 @@
 /* colors */
 
 @import url('modules/_colors.css');
+
+/* filters */
+
+@import url('modules/_filters.css');
