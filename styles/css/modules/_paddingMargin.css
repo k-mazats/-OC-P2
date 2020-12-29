@@ -85,7 +85,7 @@ footer section{
 		margin: 1.125rem 0 1.75rem 0;
 	}
 	output {
-		margin: 2.25rem 0 2.5rem 0;
+		margin: 2.25rem 0 1rem 0;
 	}
 	.section-title {
 		margin: 1rem 1.5rem 0 1.5rem;
@@ -100,12 +100,7 @@ footer section{
 	.show-more {
 		margin: 0 2rem 1rem 2rem;
 	}
-	/* #popularSection {
-		margin: 0.4rem 0 0.4rem 0;
-	} */
-	/* #popularSection .section-title {
-		margin: 2.5rem 0 ;
-	} */
+	
 	#popularSection .card-link:first-of-type {
 		margin: 1.5rem 0 2.25rem 0;
 	}

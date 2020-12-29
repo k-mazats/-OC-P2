@@ -37,6 +37,9 @@ input[type="search"] {
 .card-body p{
  font-size: 0.9rem;
 }
+.currency, .low-budget{
+	font-weight: 600;
+}
 .show-more{
 	font-size: 1.1rem;
 	font-weight: 800;
