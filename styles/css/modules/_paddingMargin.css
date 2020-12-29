@@ -14,7 +14,7 @@ h1 {
 	margin: 1.5rem 0 1.75rem 0;
 }
 .search-box {
-	margin: 2.25rem 0 2rem 0;
+	margin: 2rem 0 2rem 0;
 }
 
 input[type="search"] {
@@ -82,7 +82,7 @@ footer section{
 		margin: 0 0 0.5rem 0;
 	}
 	.search-box {
-		margin: 1.25rem 0 1.5rem 0;
+		margin: 1.125rem 0 1.75rem 0;
 	}
 	output {
 		margin: 2.25rem 0 2.5rem 0;

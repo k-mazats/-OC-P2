@@ -47,9 +47,6 @@ form {
 	width: calc(100% / 7 * 5);
 	height: 100%;
 }
-.search-filters h2{
-    width: 100%;
-}
 .output-icon {
 	width: 22px;
 	height: 22px;
@@ -126,20 +123,18 @@ footer {
 		height: 100%;
 	}
 	.search-box {
-		width: 31.25%;
-		height: 3.3rem;
+		width: 50%;
+		height: 3.25rem;
 	}
 	.search-box button {
-	width: calc(100% / 7 );
+	width: calc(100% / 7 *1 );
 	height: 100%;
 }
 .search-box input {
 	width: calc(100% / 7 * 5);
 	height: 100%;
 }
-.search-filters h2{
-    width: auto;
-}
+
 	#rentalsSection .card-link {
 		width: 29%;
 	}
@@ -184,7 +179,18 @@ footer {
 
 @media (min-width: 1250px) {
 	
-	
+	.search-box {
+		width: 31.25%;
+		height: 3.25rem;
+	}
+	.search-box button {
+	width: calc(100% / 7 *2 );
+	height: 100%;
+}
+.search-box input {
+	width: calc(100% / 7 * 4);
+	height: 100%;
+}
 	.search-filters {
 		height: 3.3rem;
 	}

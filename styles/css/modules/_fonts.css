@@ -17,8 +17,11 @@ h1 {
 h2{
 	font-size: 1.1rem;
 }
-.search-box *{
+.search-box input {
 	font-weight: 800;
+}
+.search-box button {
+	font-weight: 600;
 }
 input[type="search"] {
 	font-size: 1.1rem;
