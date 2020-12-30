@@ -1,26 +1,26 @@
 /* reset */
 
-@import url('modules/_reset.css');
+@import url('modules/reset.css');
 
 /* layout */
 
-@import url('modules/_layout.css');
+@import url('modules/layout.css');
 
 /* layout sizing */
 
-@import url('modules/_layoutSizing.css');
+@import url('modules/layoutSizing.css');
 
 /* padding and margin */
 
-@import url('modules/_paddingMargin.css');
+@import url('modules/paddingMargin.css');
 
 /* borders */
 
-@import url('modules/_borders.css');
+@import url('modules/borders.css');
 
 /* fonts */
 
-@import url('modules/_fonts.css');
+@import url('modules/fonts.css');
 
 /* colors */
 
@@ -28,4 +28,4 @@
 
 /* filters */
 
-@import url('modules/_filters.css');
+@import url('modules/filters.css');
