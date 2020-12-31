@@ -1,10 +1,13 @@
 .search-filters {
 	display: flex;
-	align-items: center;
+	
 	flex-wrap: wrap;
 }
 .search-filters h2 {
+	height: 3rem;
 	width: 100%;
+	display:flex;
+	align-items: center;
 }
 /* The switch - the box around the slider */
 .filter-switch {
@@ -115,17 +118,20 @@
 	border-radius: 50%;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 940px) {
 	.search-filters {
 		align-items: center;
 	}
 	.search-filters h2 {
-		width: auto;
-	}
+	height: 3rem;
+	width: auto;
+	
+	align-items: center;
+}
 	.filter-switch {
 		position: relative;
 		height: 3rem;
-		margin-top: 0;
+		margin-bottom: 1rem;
 		margin-right: 0;
 		margin-left: 2.5rem;
 	}

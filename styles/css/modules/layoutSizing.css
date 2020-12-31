@@ -112,14 +112,17 @@ footer {
 		height: 100%;
 	}
 	nav {
-		width: 80%;
+		width: calc(90% - 95px);
 		height: 100%;
 	}
+	nav ul{ min-width: 240px;}
+	nav li{ min-width: 120px;}
 	.menu {
 		width: 27.5%;
 	}
 	.register {
 		width: 10%;
+		min-width: 95px;
 		height: 100%;
 	}
 	.search-box {
@@ -177,9 +180,10 @@ footer {
 }
 
 
-@media (min-width: 1250px) {
+@media (min-width: 940px) {
 	
 	.search-box {
+		min-width: 420px;
 		width: 31.25%;
 		height: 3.25rem;
 	}
@@ -191,14 +195,13 @@ footer {
 	width: calc(100% / 7 * 4);
 	height: 100%;
 }
-	.search-filters {
-		height: 3.3rem;
-	}
+	
 
 	#rentalsSection {
 		width: calc(100% / 3 * 2 - 4.75rem);
 	}
 	#rentalsSection .card-link {
+		min-width: 244px;
 		width: 29%;
 	}
 	.rentals-card {
@@ -207,14 +210,18 @@ footer {
 	}
 	.rentals-card img {
 		width: 100%;
-		max-height: 7rem;
+		height: 7rem;
 		object-fit: cover;
 		object-position: center;
 	}
 	.rentals-card .card-body {
 		height: 5rem;
+		width: 100%;
 	}
-
+	.rentals-card .card-body h2 {
+		
+		width: 100%;
+	}
 	#popularSection {
 		width: calc(100% / 3 - 4rem);
 	}
@@ -222,26 +229,29 @@ footer {
 		width: calc(100% - 3.5rem);
 	}
 	#popularSection .card-link{
-		height: 9rem;
+		min-height: 9rem;
+		height: 23%;
+		max-height: 11rem;
 		width: 90%;
 	}
 	.popular-card {
-		height: 9rem;
+		height: 100%;
+		
 		width: 100%;
 	}
 	.popular-card img {
+		height: 100%;
+		max-height: none;
 		width: 39%;
-		max-height: 9rem;
 		object-fit: cover;
 		object-position: center;
 	}
 	.popular-card .card-body {
 		width: 61%;
-		max-height: 9rem;
+		height: 100%;
+		max-height: none;
 	}
-	.popular-card .card-upper-body {
-		height: 50%;
-	}
+	
 
 	.masonry-wrap {
 		max-height: 30rem;

@@ -40,6 +40,7 @@ main section {
 main section .section-title {
 	display: flex;
 	justify-content: space-between;
+	position:relative;
 }
 
 .search-box {
@@ -130,7 +131,7 @@ footer {
 		justify-content: space-between;
 	}
 }
-@media (min-width: 1250px) {
+@media (min-width: 940px) {
 	
 	main {
 		flex-direction: row;

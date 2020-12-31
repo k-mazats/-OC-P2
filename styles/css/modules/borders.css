@@ -75,7 +75,7 @@ button {
 	}
 	
 }
-@media (min-width: 1250px) {
+@media (min-width: 940px) {
 	.search-box button {
 		border-top-left-radius: 0;
 		border-bottom-left-radius: 0;

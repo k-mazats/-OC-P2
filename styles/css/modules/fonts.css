@@ -2,19 +2,20 @@
 	font-family: "Raleway", sans-serif;
 	text-decoration: none;
 	color: black;
+	
 }
-.register{
-	color: #0065FC;
+.register {
+	color: #0065fc;
 	font-weight: 800;
 }
-.menu a{
+.menu a {
 	font-weight: 600;
 }
 h1 {
 	font-size: 1.35rem;
 	font-weight: 800;
 }
-h2{
+h2 {
 	font-size: 1.1rem;
 }
 .search-box input {
@@ -29,24 +30,26 @@ input[type="search"] {
 
 .output-icon {
 	font-size: 0.75rem;
-	color: #0065FC;
+	color: #0065fc;
 }
-.card-body h2{
- font-size: 1rem;
+
+.card-body h2 {
+	font-size: 1rem;
 }
-.card-body p{
- font-size: 0.9rem;
+.card-body p {
+	font-size: 0.9rem;
 }
-.currency, .low-budget{
+.currency,
+.low-budget {
 	font-weight: 600;
 }
-.show-more{
+.show-more {
 	font-size: 1.1rem;
 	font-weight: 800;
 }
-.card-lower-body{
+.card-lower-body {
 	font-size: 0.7rem;
 }
-.footer-ul li{
+.footer-ul li {
 	font-weight: 500;
 }
