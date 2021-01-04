@@ -106,6 +106,9 @@ footer section{
 	#popularSection .card-link {
 		margin: 0 0 2.25rem 0;
 	}
+	.popular-card .card-body {
+	padding: 0.5rem 1ch;
+}
 	#activitiesSection {
 		padding: 1rem 2.75rem;
 	}

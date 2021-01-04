@@ -165,7 +165,7 @@ footer {
 	.popular-card .card-upper-body {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
+		justify-content: space-between;
 	}
 	.masonry-wrap {
 		flex-direction: column;
