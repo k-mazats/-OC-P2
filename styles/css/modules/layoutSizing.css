@@ -54,7 +54,9 @@ form {
 output span {
 	width: calc(100% - 22px - 1.5ch);
 }
-
+.card-link{
+	height:fit-content;
+}
 .popular-card {
 	height: 9rem;
 	width: 100%;
@@ -205,7 +207,7 @@ footer {
 		width: 29%;
 	}
 	.rentals-card {
-		height: 12rem;
+		height: 100%;
 		width: 100%;
 	}
 	.rentals-card img {
@@ -231,7 +233,7 @@ footer {
 	#popularSection .card-link{
 		min-height: 9rem;
 		height: 23%;
-		max-height: 11rem;
+		max-height: 15rem;
 		width: 90%;
 	}
 	.popular-card {
