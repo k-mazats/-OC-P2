@@ -24,8 +24,7 @@ nav ul {
 .register {
 	height: 72.5%;
 }
-main
-section {
+main section {
 	width: 100%;
 }
 .section-title {
@@ -54,8 +53,8 @@ form {
 output span {
 	width: calc(100% - 22px - 1.5ch);
 }
-.card-link{
-	height:fit-content;
+.card-link {
+	height: fit-content;
 }
 .popular-card {
 	height: 9rem;
@@ -117,8 +116,12 @@ footer {
 		width: calc(90% - 95px);
 		height: 100%;
 	}
-	nav ul{ min-width: 240px;}
-	nav li{ min-width: 120px;}
+	nav ul {
+		min-width: 240px;
+	}
+	nav li {
+		min-width: 120px;
+	}
 	.menu {
 		width: 27.5%;
 	}
@@ -132,13 +135,13 @@ footer {
 		height: 3.25rem;
 	}
 	.search-box button {
-	width: calc(100% / 7 *1 );
-	height: 100%;
-}
-.search-box input {
-	width: calc(100% / 7 * 5);
-	height: 100%;
-}
+		width: calc(100% / 7 * 1);
+		height: 100%;
+	}
+	.search-box input {
+		width: calc(100% / 7 * 5);
+		height: 100%;
+	}
 
 	#rentalsSection .card-link {
 		width: 29%;
@@ -156,14 +159,17 @@ footer {
 	.rentals-card .card-body {
 		height: 5rem;
 	}
-	
-	#activitiesSection .card-link.card-link:nth-of-type(1), #activitiesSection .card-link.card-link:nth-of-type(4) {
+
+	#activitiesSection .card-link.card-link:nth-of-type(1),
+	#activitiesSection .card-link.card-link:nth-of-type(4) {
 		width: 100%;
 	}
-	#activitiesSection .card-link.card-link:nth-of-type(2), #activitiesSection .card-link.card-link:nth-of-type(6) {
+	#activitiesSection .card-link.card-link:nth-of-type(2),
+	#activitiesSection .card-link.card-link:nth-of-type(6) {
 		width: 59%;
 	}
-	#activitiesSection .card-link.card-link:nth-of-type(3), #activitiesSection .card-link.card-link:nth-of-type(5) {
+	#activitiesSection .card-link.card-link:nth-of-type(3),
+	#activitiesSection .card-link.card-link:nth-of-type(5) {
 		width: 39%;
 	}
 	.activities-card {
@@ -181,30 +187,28 @@ footer {
 	}
 }
 
-
 @media (min-width: 940px) {
-	
 	.search-box {
 		min-width: 420px;
 		width: 31.25%;
 		height: 3.25rem;
 	}
 	.search-box button {
-	width: calc(100% / 7 *2 );
-	height: 100%;
-}
-.search-box input {
-	width: calc(100% / 7 * 4);
-	height: 100%;
-}
-	
+		width: calc(100% / 7 * 2);
+		height: 100%;
+	}
+	.search-box input {
+		width: calc(100% / 7 * 4);
+		height: 100%;
+	}
 
 	#rentalsSection {
 		width: calc(100% / 3 * 2 - 4.75rem);
 	}
 	#rentalsSection .card-link {
-		min-width: 244px;
-		width: 29%;
+		min-width: calc(33% - 10px);
+		width: calc(100% - 10px);
+		max-width: 235px;
 	}
 	.rentals-card {
 		height: 100%;
@@ -221,16 +225,15 @@ footer {
 		width: 100%;
 	}
 	.rentals-card .card-body h2 {
-		
 		width: 100%;
 	}
 	#popularSection {
 		width: calc(100% / 3 - 4rem);
 	}
-	#popularSection .section-title{
+	#popularSection .section-title {
 		width: calc(100% - 3.5rem);
 	}
-	#popularSection .card-link{
+	#popularSection .card-link {
 		min-height: 9rem;
 		height: 23%;
 		max-height: 15rem;
@@ -238,7 +241,7 @@ footer {
 	}
 	.popular-card {
 		height: 100%;
-		
+
 		width: 100%;
 	}
 	.popular-card img {
@@ -254,7 +257,6 @@ footer {
 		max-height: none;
 	}
 	.popular-card .card-body .card-upper-body {
-		
 		height: 50%;
 		max-height: 5rem;
 	}
@@ -263,7 +265,7 @@ footer {
 		max-height: 30rem;
 	}
 	.masonry-wrap .card-link {
-		width: 22%!important;
+		width: 22% !important;
 	}
 	.masonry-wrap .card-link:nth-of-type(1) {
 		height: 100%;
@@ -291,8 +293,8 @@ footer {
 		max-height: 100%;
 	}
 	.activities-card .card-body {
-	height: 3.5rem;
-}
+		height: 3.5rem;
+	}
 	.card-link:nth-of-type(1) .activities-card img {
 		height: 23.5rem;
 	}
@@ -312,7 +314,7 @@ footer {
 		height: 9.5rem;
 	}
 
-	footer section{
-		width:25%;
+	footer section {
+		width: 25%;
 	}
 }
