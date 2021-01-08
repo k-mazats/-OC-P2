@@ -1,12 +1,10 @@
-/* .menu a:visited{
-	border-bottom: 2px solid #0065FC;
-} */
+.menu a:visited{
+	border-bottom: 2px solid #f2f2f2;
+} 
 .menu a:hover {
 	border-bottom: 2px solid #0065fc;
 }
-/* .menu a:active{
-	border-bottom: 2px solid #0065FC;
-} */
+
 .search-box label {
 	border-top-left-radius: 0.9rem;
 	border-bottom-left-radius: 0.9rem;
