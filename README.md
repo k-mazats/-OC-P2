@@ -1,6 +1,6 @@
 # MazatsKevin_2_07122020
 
-MazatsKevin_2_07122020 is my take on the seventh project from OpenClassroom Frontend Dev training. It focuses on HTML/CSS, and the end goal is to create an airbnb kinda website.
+MazatsKevin_2_07122020 is my take on the scond project from OpenClassroom Frontend Dev training. It focuses on HTML/CSS, and the end goal is to create an airbnb kinda website.
 
 ## Usage
 
